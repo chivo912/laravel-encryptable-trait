@@ -1,0 +1,21 @@
+{
+    "name": "chivo912/encryptable",
+    "description": "A simple trait to make attributes encrypted in the database",
+    "type": "library",
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chi Vo",
+            "email": "c.kid2k11@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Chivo912\\Encryptable\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
